@@ -3,12 +3,12 @@ import java.util.concurrent.ThreadLocalRandom;
 //
 public class BubbleSort {
 	public static void main(String[] arg) {
-		int length = 10;
-		int iteration = 1;
-		int sumnum = 0;
+		int length = 10;  // length of array
+		int iteration = 1; //for stop sort if array are already sorted
+		int sumnum = 0;  // too  know how many steps were done for sorted
 		int[] array = new int[length];
 		for(int i = 0; i < array.length; i++) {
-			 array[i] = ThreadLocalRandom.current().nextInt(1,99);
+			 array[i] = ThreadLocalRandom.current().nextInt(1,99); // create random int from 1 tp 99
 			System.out.print(" || "+i + ".= " + array[i]);
 			if(i%5 == 0)
 				System.out.println();
