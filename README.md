@@ -1,2 +1,2 @@
 # JavaLearning
-test for upgrade java skils
+task for upgrade java skils
